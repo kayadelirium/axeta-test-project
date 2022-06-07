@@ -12,12 +12,12 @@ export const LinkStyled = styled.a`
     color: #3483cc;
     text-decoration: ${(props: IStyledProps) => (!!props.dashed ? "dashed" : "none")};
 
-    &:hover {
+    :hover {
         color: #eb5757;
+        text-decoration: none;
     }
 
     :visited {
-        color: #3483cc;
         text-decoration: none;
     }
 `;

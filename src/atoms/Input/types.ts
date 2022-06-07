@@ -1,10 +1,8 @@
-import { ReactNode } from "react";
-
 export interface IStyledProps {
-    bold?: boolean;
     big?: boolean;
-    link?: boolean;
+    small?: boolean;
+    error?: boolean;
 }
 export interface IProps extends IStyledProps {
-    children: ReactNode;
+    // children: ReactNode;
 }

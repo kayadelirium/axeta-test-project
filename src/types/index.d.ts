@@ -2,12 +2,13 @@ export interface IUser {
     name: string;
     portfolio: IPortfolio[];
     experience: IExperience[];
-    place: IMap;
+    place: string;
     sample: string;
     availability: string;
     environment: string;
     amazing: string;
     lookingfor: string;
+    language: string;
 }
 
 export interface IExperience {
@@ -18,10 +19,4 @@ export interface IExperience {
 export interface IPortfolio {
     technology: string;
     link: string;
-}
-
-export interface IMap {
-    latitude: number;
-    longitude: number;
-    name: string;
 }
